@@ -79,7 +79,7 @@ $values = $headers->remove('Pragma');
 
 ## 响应主体 <span id="response-body"></span>
 
-大多是响应应有一个主体存放你想要显示给终端用户的内容。
+大多数响应应有一个主体存放你想要显示给终端用户的内容。
 
 如果已有格式化好的主体字符串，可赋值到响应的 [[yii\web\Response::content]] 属性，
 例如：
